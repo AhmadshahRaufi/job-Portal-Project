@@ -1,0 +1,121 @@
+ .backimg{
+    background-image: linear-gradient(rgba(75, 73, 73, 0.5), rgba(59, 59, 59, 0.5)), url(pexels-lukas-917463.jpg);
+    display: block;
+    background-size:cover ;
+    width: 100%;
+    height: 60vh;
+    margin: -1pc;
+    margin-top: -21px;
+    padding-left:24px;
+ }
+  
+.d1{
+    display: flex;
+    color: black;
+    font-weight: bold;
+    position: fixed;
+    height: 14vh;
+    transition: transform 0.2s ease-in; /* Apply a transformation with a 0.5-second transition and "ease-in" timing function */
+   
+  }
+  .scroll {
+    display: flex;
+    color: black;
+    font-weight: bold;
+    position: fixed;
+ 
+    background-color: #111010;
+   
+    transform: scale(1.1) ; /* Apply a scale transformation */
+  
+  }
+  nav {
+     
+   margin-left: -7%;
+   color: black;
+   
+  }
+    
+    nav a {
+      float: left;
+      display: block;
+      color: rgb(255, 255, 255);
+      text-align: center;
+      padding: 10px;
+      width:max-content ;
+      text-decoration: none;
+      font-size: 17px;
+      margin: 1.4pc;
+  
+    }
+    
+    nav a:hover {
+      background-color: #78be5c ;
+      color: black;
+    }
+    
+    nav a.active {
+      background-color: #78be5c ;
+      color: black;;
+      color: white;
+    }
+    ul {
+      display: flex;
+      counter-reset: none;
+      counter-increment:none ;
+  
+    }
+      li {
+         list-style: none;
+    }
+    .logo{
+      margin-top: -2pc;
+      margin-left: 4pc;
+      width: 16pc;
+      height: 11pc 
+    }
+  
+  /* Style the dropdown container (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #c03b3b;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    width: 15pc;
+    text-align: center;
+    margin-top: 4pc;
+    height: 35vh;
+  
+  }
+  
+  /* Style the dropdown links */
+  .dropdown-content a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -1.8pc;
+    
+  }
+  
+  /* Change color of links on hover */
+  .dropdown-content a:hover {
+    background-color: #3a3636;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Show the dropdown content when hovering over the dropdown item */
+  .dropdown:hover .dropdown-content {
+    display: flex;
+    flex-direction: column;
+    background-color: #111010;
+    border-top:solid 1px #78be5c;
+  }
+ 
+  .terms{
+    text-align: center;
+    align-content: center;
+    ju
+  }
